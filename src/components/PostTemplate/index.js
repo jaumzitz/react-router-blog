@@ -1,3 +1,4 @@
+import OtherPosts from 'components/OtherPosts'
 import styles from './PostTemplate.module.css'
 
 export default function PostTemplate({ fotoCapa, title, children}) {
@@ -14,7 +15,9 @@ export default function PostTemplate({ fotoCapa, title, children}) {
 
             <div className={styles.postConteudoContainer}>
                 {children}
+            <OtherPosts></OtherPosts>
             </div>
+
         </article>
     )
 }

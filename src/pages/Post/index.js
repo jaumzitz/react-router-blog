@@ -36,7 +36,7 @@ export default function Post() {
                 />  
             </Route>
         </Routes >
-        <OtherPosts></OtherPosts>
+        
                 </>
     )
 }
