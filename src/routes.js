@@ -19,9 +19,9 @@ function AppRoutes() {
         <Route path='/' element={<DefaultPage />}>
           <Route path='/' element={<Home />} />
           <Route path='sobremim' element={<AboutMe />} />
-          <Route path='posts/:id' element={<Post />} />
         </Route>
 
+        <Route path='posts/:id/*' element={<Post />} />
         <Route path='*' element={<NotFound />} />
         {/* 
         
