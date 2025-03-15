@@ -1,6 +1,6 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import AboutMe from './pages/AboutMe'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Menu from './components/Menu';
 import Footer from 'components/Footer';
 import DefaultPage from 'components/DefaultPage';
