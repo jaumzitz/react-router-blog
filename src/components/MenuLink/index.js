@@ -4,7 +4,7 @@ import styles from './MenuLink.module.css'
 export default function MenuLink({ children, to }) {
 
     const localization = NavLink;
-    console.log(localization)
+    
 
     return (
         <NavLink

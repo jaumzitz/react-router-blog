@@ -1,6 +1,6 @@
 .banner {
     padding: 3rem 7.5rem 6.25rem;
-    background-color: var(--azul-escuro);
+    background-color: var(--preto-0);
     color: var(--branco);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -38,8 +38,15 @@
     right: 7vw;
     bottom: 2.2vw;
     width: 25vw;
+    
 }
  
+.mascaraCirculoColorido {
+    background-size: cover;
+    filter: blur(25px);
+  }
+  
+
 @media (max-width: 1100px) {    
     .banner {
         padding: 3.5rem 1.5rem;
@@ -66,6 +73,7 @@
         right: 10vw;
         width: 35vw;
     }
+    
 }
  
 @media (max-width: 744px) {

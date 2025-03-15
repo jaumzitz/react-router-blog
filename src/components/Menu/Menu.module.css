@@ -1,3 +1,8 @@
+
+.testeira {
+    background-color: var(--preto-1);
+}
+
 .navegacao {
     height: 112px;
     display: flex;
