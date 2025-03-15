@@ -10,6 +10,7 @@ export default function Menu() {
             <nav className={styles.navegacao}>
                 <MenuLink to='/'>Início</MenuLink>
                 <MenuLink to='/sobremim'>Sobre mim</MenuLink>
+                <MenuLink to='/projetos'>Projetos</MenuLink>
             </nav>
         </header>
     )
