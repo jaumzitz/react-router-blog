@@ -8,6 +8,16 @@
   src: url('assets/fonts/LiberationMono-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url('assets/fonts/Inter-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url('assets/fonts/Inter-Regular.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +34,7 @@
   
   --cinza-claro-1: #8e8e8e;
   --cinza-claro-2: #363636;
+  --cinza-claro-3: #B0B0B0;
   
   --cinza-escuro: #242424;
   
@@ -38,8 +49,10 @@
   --branco: #FFF;
   --fonte-principal: 'LiberaionMono-Bold', sans-serif;
   --fonte-secundaria: 'LiberationMono-Regular', sans-serif;
+  --fonte-adicional: 'Inter-Medium', sans-serif;
 
   font-family: var(--fonte-principal);
+  background: linear-gradient(180deg, #161616 0%, #0B0B0B 48.4%, #000 100%);
 }
 
 #root {

@@ -1,0 +1,28 @@
+.tecnologias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4vw 0 4vw 0
+    
+}
+
+.tecnologias .descricao{
+    font-family: 'Inter-Regular';
+    color: var(--branco);
+    
+}
+
+
+.tecnologias h3, h2 {
+    font-size: 2rem;
+    line-height: normal;
+}
+
+.tecnologias .descricao :last-child {
+    color: var(--cinza-claro-3);
+}
+.tecnologias ul {
+    display: flex;
+    gap: 8px
+}

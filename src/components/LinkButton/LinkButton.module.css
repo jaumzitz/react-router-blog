@@ -1,0 +1,13 @@
+.botaoLink {
+    border: none;
+    font-family: 'Inter-Medium';
+    color: var(--cinza-claro-1);
+    text-decoration: underline;
+
+}
+
+.botaoLink:hover {
+    cursor: pointer;
+    color: #F5F5F5;
+    transition: 180ms
+}
