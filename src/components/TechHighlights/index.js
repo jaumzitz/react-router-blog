@@ -17,19 +17,19 @@ export default function TechHighlights() {
             </div>
             <ul className='icon-list'>
                 <li onMouseEnter={() => setTechname(' React.')}>
-                    <Icon id='react' size={100} color="#363636" key="React"></Icon>
+                    <Icon id='react' size={50} color="#363636" key="React"></Icon>
                 </li>
                 <li onMouseEnter={() => setTechname(' Figma.')}>
-                    <Icon id='figma' size={100} color="#363636" key="Figma"></Icon>
+                    <Icon id='figma' size={50} color="#363636" key="Figma"></Icon>
                 </li>
                 <li onMouseEnter={() => setTechname(' Oracle.')}> 
-                    <Icon id='db' size={100} color="#363636" key="Oracle"></Icon>
+                    <Icon id='db' size={50} color="#363636" key="Oracle"></Icon>
                 </li>
                 <li onMouseEnter={() => setTechname(' Javascript.')}>
-                    <Icon id='js' size={100} color="#363636" key="Javascript"></Icon>
+                    <Icon id='js' size={50} color="#363636" key="Javascript"></Icon>
                 </li>
                 <li onMouseEnter={() => setTechname(' PHP.')}>
-                    <Icon id='php' size={100} color="#363636" key="PHP"></Icon>
+                    <Icon id='php' size={50} color="#363636" key="PHP"></Icon>
                 </li>
 
             </ul>
