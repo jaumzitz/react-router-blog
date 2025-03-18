@@ -26,3 +26,23 @@
     display: flex;
     gap: 8px
 }
+
+@media (max-width: 1100px) {
+ .tecnologias {
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+ .tecnologias .descricao {
+    padding-bottom: 4vh;
+ }
+
+ .tecnologias .icon-list li svg {
+    
+ }
+}
+
+@media (max-width: 744px) {
+
+}
