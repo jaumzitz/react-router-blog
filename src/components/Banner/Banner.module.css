@@ -1,22 +1,24 @@
 .banner {
     padding: 3rem 7.5rem 6.25rem;
-    background-color: var(--azul-escuro);
+    background-color: var(--preto-0);
     color: var(--branco);
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
 }
  
 .titulo {
-    font-family: var(--fonte-secundaria);
+    font-family: 'Inter-Medium';
     font-size: 4rem;
     margin-top: 4.875rem;
     margin-bottom: 2rem;
 }
  
 .paragrafo {
-    font-family: var(--fonte-secundaria);
+    font-family: 'Inter-Regular';
     font-size: 1.5rem;
     line-height: 2rem;
+    color: var(--cinza-claro-3);
     margin-bottom: 2rem;
 }
  
@@ -38,8 +40,15 @@
     right: 7vw;
     bottom: 2.2vw;
     width: 25vw;
+    
 }
  
+.mascaraCirculoColorido {
+    background-size: cover;
+    filter: blur(25px);
+  }
+  
+
 @media (max-width: 1100px) {    
     .banner {
         padding: 3.5rem 1.5rem;
@@ -66,6 +75,7 @@
         right: 10vw;
         width: 35vw;
     }
+    
 }
  
 @media (max-width: 744px) {

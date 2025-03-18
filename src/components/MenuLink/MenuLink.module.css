@@ -1,9 +1,20 @@
 .link {
     font-size: 1.25rem;
     line-height: 1.5rem;
-    color: var(--cor-fonte-principal);
+    color: var(--branco-2);
+    background-color: var(--cinza-escuro);
+    padding: 8px 16px;
+    border-radius: 14px;
+    border: 1px solid #363636;
+
+
 }
 
 .linkDestacado {
-    text-decoration: underline;
+    border: var(--verde-claro) 2px solid;
+    box-shadow: 0px 0px 12px 0px var(--verde-2, #006239);
+}
+
+.link :hover {
+    background-color: rgb(45,43,43);
 }

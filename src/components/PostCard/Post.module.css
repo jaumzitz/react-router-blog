@@ -1,52 +1,68 @@
 .post {
-    text-align: center;
+    text-align: left;
     width: 282px;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
     padding-bottom: 1.5rem;
     transition: transform .2s;
+    border: 1px solid #444;
+    background: #2E2E2E;
+
 }
 
 .post:hover {
     transform: translate(0, -1rem);
+    border: 1px solid var(--cinza-claro-1)
 }
 
 .capa {
     width: 100%;
 }
 
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.2rem;
+    align-items: flex-start;
+
+}
+
+
 .titulo {
-    font-family: var(--fonte-secundaria);
-    font-size: 1.25rem;
-    color: var(--azul-escuro);
-    line-height: 1.75rem;
-    margin: 1.5rem 0 1.75rem;
-}
 
-.botaoLer {
-    display: inline-block;
-    border-radius: 24px;
-    padding: 0.75rem 1.5rem;
-    font-size: 1.125rem;
-    line-height: 1.125rem;
-    background-color: var(--azul-medio);
+    font-size: 1rem;
     color: var(--branco);
-    border: 3px solid var(--azul-medio);
-    cursor: pointer;
-    transition: 0.2s
+    font-family: 'Inter-Medium';
+    margin: 0.8rem 0;
+    color: #F5F5F5;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
-.botaoLer:hover {
-    border: 3px solid var(--azul-escuro);
+.descricao {
+    font-family: 'Inter-Regular';
+    color: var(--cinza-claro-1);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;   
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Define o número máximo de linhas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding-bottom: 0.8rem;
+
 }
 
 @media (max-width: 1100px) {
     .post {
         width: 336px;
     }
+
     .titulo {
         font-weight: 600;
     }
+
     .botaoLer {
         padding: 0.6875rem 1.5rem;
         font-size: 1.375rem;
