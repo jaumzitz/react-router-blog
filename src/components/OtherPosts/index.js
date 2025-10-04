@@ -9,7 +9,7 @@ export default function OtherPosts() {
     return (
         <section >
 
-            <h3 className={styles.sectionTitle}>Outros posts que você pode gostar...</h3>
+            <h3 className={styles.sectionTitle}>Confire mais posts abaixo</h3>
 
 
             <ul className={styles.otherPosts}>

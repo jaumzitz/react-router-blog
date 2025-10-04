@@ -20,23 +20,27 @@ export default function Post() {
 
     return (
         <>
-        <Routes>
-            <Route path="*" element={<DefaultPage />}>
-                <Route index element={
-                    <PostTemplate
-                    fotoCapa={`/assets/posts/${parameters.id}/capa.png`}
-                    title={post.titulo}
-                    >
-                        <div className="post-markdown-container">
-                            <Markdown>{post.texto}</Markdown>
-                        </div>
-                    </PostTemplate >
-                    
-                }
-                />  
-            </Route>
-        </Routes >
-        
-                </>
+            <Routes>
+                <Route path="*" element={<DefaultPage />}>
+                    <Route index element={
+                        <>
+
+                            <PostTemplate
+                                fotoCapa={`/assets/posts/${parameters.id}/capa.png`}
+                                title={post.titulo}
+                            >
+                                <div className="post-markdown-container">
+                                    <Markdown>{post.texto}</Markdown>
+                                </div>
+                            </PostTemplate >
+
+                            <OtherPosts></OtherPosts>
+                        </>
+                    }
+                    />
+                </Route>
+            </Routes >
+
+        </>
     )
 }

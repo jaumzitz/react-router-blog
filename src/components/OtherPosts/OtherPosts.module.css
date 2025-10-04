@@ -1,12 +1,30 @@
 .sectionTitle {
+    position: relative;
+}
+
+.sectionTitle {
     font-family: var(--fonte-secundaria);
-    margin-bottom: 2rem;
-    font-size: 2.5rem;
+    margin: 14vh;
+    font-size: 1.5rem;
+    color: rgb(150, 150, 150);
 }
 
 .otherPosts {
+    margin: 14vh 0;
+
+    /* scrollbar-width: none; */
+
+    width: 100%;
     display: flex;
+    justify-content: flex-start;
+   
+    gap: 24px;
+    box-sizing: content-box;
+    padding: 4vh 0 14vh 14vh;
+    z-index: 1;
+    gap: 16px;
+    overflow-y: auto;
     flex-direction: row;
-    justify-content: space-between;
     
+
 }

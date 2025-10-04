@@ -52,7 +52,7 @@
   --fonte-adicional: 'Inter-Medium', sans-serif;
 
   font-family: var(--fonte-principal);
-  background: linear-gradient(180deg, #161616 0%, #0B0B0B 48.4%, #000 100%);
+  background: linear-gradient(180deg, #0f0f0f 0%, #0f0f0f 88.4%, #000 100%);
 }
 
 #root {

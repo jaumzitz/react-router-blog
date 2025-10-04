@@ -1,5 +1,12 @@
+section {
+    background-color: var(--preto-0);
+}
+
 .postModeloContainer {
     color: var(--cor-fonte-post);
+    background-color: #2e2e2e;
+    margin: 14vh;
+    border-radius: 30px;
     position: relative;
 }
 
@@ -20,14 +27,17 @@
 
 .titulo {
     font-family: var(--fonte-secundaria);
-    padding: 0 7.5rem;
-    font-size: 4rem;
+    padding: 4rem 4.5rem 0;
+    font-size: 2.5rem;
     display: flex;
+    color: rgb(255, 255, 255);
     align-items: center;
 }
 
 .postConteudoContainer {
-    padding: 2.5rem 7.5rem 4.5rem;
+    padding: 2.5rem  4.5rem;
+    color: rgb(201, 201, 201);
+    ;
 }
 
 @media (max-width: 744px) {
